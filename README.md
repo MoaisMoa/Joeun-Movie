@@ -1,8 +1,7 @@
 # **프로젝트 : JoeunMovie** 🎬
 
 <p align="center">
-  <!-- 대표 이미지가 있으면 경로만 바꿔서 사용하세요 -->
-  <img src="./movie/src/main/webapp/static/img/movie/대표이미지.png" width="600" alt="JoeunMovie 대표 이미지">
+  <img width="2752" height="1536" alt="Gemini_Generated_Image_wbp3lswbp3lswbp3" src="https://github.com/user-attachments/assets/c13d03ce-e2e2-4948-86ed-8f2ed9e64566" />
 </p>
 
 > 영화 정보를 탐색하고, 리뷰를 남기며, 관리자 페이지에서 영화/회원/리뷰를 관리할 수 있는 **웹 기반 영화 플랫폼**
@@ -10,12 +9,12 @@
 <br>
 
 ## 📌 시연 영상
-<!-- 배포 링크 또는 유튜브 링크로 교체하세요 -->
-[![시연 영상](./movie/src/main/webapp/static/img/thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[[![시연 영상](./movie/src/main/webapp/static/img/thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)](https://youtu.be/xkNmg4kmPro?si=PUyOHegEQZs6UnqS)
 
 > ⬆️ 이미지를 클릭하면 시연 영상으로 이동합니다.
 
 <br>
+
 
 ---
 
