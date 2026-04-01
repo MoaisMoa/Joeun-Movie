@@ -50,21 +50,21 @@
 
 ## 2. 프로젝트 구조
 
-### 2-1. 디렉토리 구조 (요약)
+### 2-1. 디렉토리 구조
 ```
 Joeun-Movie/
 ├── README.md
 └── movie/                               ← WebApp
     ├── src/main/java/movie/
-    │   ├── Servlet/                     ← 서블릿 컨트롤러 (관리자/마이페이지/상세 등)
+    │   ├── Servlet/                     ← 서블릿 컨트롤러
     │   ├── Service/                     ← 비즈니스 로직
     │   ├── DAO/                         ← DB 접근 계층
     │   ├── DTO/                         ← DTO/Entity
     │   └── filter/                      ← 인코딩 필터 등
     ├── src/main/webapp/
-    │   ├── page/                        ← JSP 페이지 (관리자/마이페이지 등)
+    │   ├── page/                        ← JSP 페이지
     │   └── static/                      ← CSS/JS/이미지
-    └── sql/                             ← SQL 스크립트(있다면)
+    └── sql/                             ← SQL 스크립트
 ```
 
 <br>
