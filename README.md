@@ -37,9 +37,7 @@
 
 <br>
 
-## 2. 프로젝트 구조
-
-### 2-1. 디렉토리 구조
+## 2. 프로젝트 아키텍처
 <br>
 <img width="2752" height="1536" alt="Gemini_Generated_Image_zfvaekzfvaekzfva (1)" src="https://github.com/user-attachments/assets/0e627bf7-5867-4b73-9052-39e336ea3352" />
 
