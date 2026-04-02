@@ -40,19 +40,9 @@
 ## 2. 프로젝트 구조
 
 ### 2-1. 디렉토리 구조
-Joeun-Movie/
-├── README.md
-└── movie/                                ← WebApp
-├── src/main/java/movie/
-│   ├── Servlet/                      ← 서블릿 컨트롤러
-│   ├── Service/                      ← 비즈니스 로직
-│   ├── DAO/                          ← DB 접근 계층
-│   ├── DTO/                          ← DTO/Entity
-│   └── filter/                       ← 인코딩 필터 등
-├── src/main/webapp/
-│   ├── page/                         ← JSP 페이지
-│   └── static/                       ← CSS/JS/이미지
-└── sql/                              ← SQL 스크립트
+<br>
+<img width="2752" height="1536" alt="Gemini_Generated_Image_zfvaekzfvaekzfva (1)" src="https://github.com/user-attachments/assets/0e627bf7-5867-4b73-9052-39e336ea3352" />
+
 
 <br>
 
