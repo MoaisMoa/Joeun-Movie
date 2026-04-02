@@ -1,20 +1,15 @@
 # **프로젝트 : JoeunMovie** 🎬
 
 <p align="center">
-  <img width="2752" height="1536" alt="Gemini_Generated_Image_wbp3lswbp3lswbp3" src="https://github.com/user-attachments/assets/c13d03ce-e2e2-4948-86ed-8f2ed9e64566" />
+  <a href="https://youtu.be/xkNmg4kmPro?si=PUyOHegEQZs6UnqS" target="_blank">
+    <img width="2752" height="1536" alt="Gemini_Generated_Image_JoeunMovie" src="https://github.com/user-attachments/assets/c13d03ce-e2e2-4948-86ed-8f2ed9e64566" />
+  </a>
 </p>
 
+> **위 이미지를 클릭하면 시연 영상(YouTube)으로 이동합니다.**
 > 영화 정보를 탐색하고, 리뷰를 남기며, 관리자 페이지에서 영화/회원/리뷰를 관리할 수 있는 **웹 기반 영화 플랫폼**
 
 <br>
-
-## 📌 시연 영상
-[[![시연 영상](./movie/src/main/webapp/static/img/thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)](https://youtu.be/xkNmg4kmPro?si=PUyOHegEQZs6UnqS)
-
-> ⬆️ 이미지를 클릭하면 시연 영상으로 이동합니다.
-
-<br>
-
 
 ---
 
@@ -47,21 +42,69 @@
 ## 2. 프로젝트 구조
 
 ### 2-1. 디렉토리 구조
-```
+Gemini의 응답
+요청하신 대로 메인 상단 이미지를 클릭하면 유튜브 시연 영상으로 바로 이동할 수 있도록 마크다운 코드를 수정해 드립니다.
+
+이미지 자체에 링크를 거는 방식을 적용했으며, 아래 코드를 복사해서 사용하시면 됩니다.
+
+Markdown
+# **프로젝트 : JoeunMovie** 🎬
+
+<p align="center">
+  <a href="https://youtu.be/xkNmg4kmPro?si=PUyOHegEQZs6UnqS" target="_blank">
+    <img width="2752" height="1536" alt="Gemini_Generated_Image_JoeunMovie" src="https://github.com/user-attachments/assets/c13d03ce-e2e2-4948-86ed-8f2ed9e64566" />
+  </a>
+</p>
+
+> **위 이미지를 클릭하면 시연 영상(YouTube)으로 이동합니다.**
+> 영화 정보를 탐색하고, 리뷰를 남기며, 관리자 페이지에서 영화/회원/리뷰를 관리할 수 있는 **웹 기반 영화 플랫폼**
+
+<br>
+
+---
+
+## 📋 목차
+- [1. 프로젝트 개요](#1-프로젝트-개요)
+- [2. 프로젝트 구조](#2-프로젝트-구조)
+- [3. 주요 기능](#3-주요-기능)
+- [4. 기술 스택](#4-기술-스택)
+- [5. Architecture](#5-architecture)
+- [6. 화면 UI](#6-화면-ui)
+- [7. 자체 평가 의견](#7-자체-평가-의견)
+
+---
+
+<br>
+
+## 1. 프로젝트 개요
+
+### 1-1. 프로젝트 주제
+- 영화 정보 탐색 및 리뷰 플랫폼 **"JoeunMovie"**
+
+### 1-2. 기획 의도
+- 사용자가 영화 정보를 쉽게 조회하고, 리뷰를 남기며
+- 관리자는 영화/회원/리뷰를 관리할 수 있는 웹 서비스를 구현
+
+<br>
+
+---
+
+## 2. 프로젝트 구조
+
+### 2-1. 디렉토리 구조
 Joeun-Movie/
 ├── README.md
-└── movie/                               ← WebApp
-    ├── src/main/java/movie/
-    │   ├── Servlet/                     ← 서블릿 컨트롤러
-    │   ├── Service/                     ← 비즈니스 로직
-    │   ├── DAO/                         ← DB 접근 계층
-    │   ├── DTO/                         ← DTO/Entity
-    │   └── filter/                      ← 인코딩 필터 등
-    ├── src/main/webapp/
-    │   ├── page/                        ← JSP 페이지
-    │   └── static/                      ← CSS/JS/이미지
-    └── sql/                             ← SQL 스크립트
-```
+└── movie/                                ← WebApp
+├── src/main/java/movie/
+│   ├── Servlet/                      ← 서블릿 컨트롤러
+│   ├── Service/                      ← 비즈니스 로직
+│   ├── DAO/                          ← DB 접근 계층
+│   ├── DTO/                          ← DTO/Entity
+│   └── filter/                       ← 인코딩 필터 등
+├── src/main/webapp/
+│   ├── page/                         ← JSP 페이지
+│   └── static/                       ← CSS/JS/이미지
+└── sql/                              ← SQL 스크립트
 
 <br>
 
@@ -78,12 +121,6 @@ Joeun-Movie/
 | 🧾 마이페이지 | 마이페이지 화면, 내 정보 화면 제공 (`/mypage/mypage`, `/mypage/info`, `/mypage/userinfo`) |
 | 🛠 관리자 | (영화) 등록/목록/상세/삭제 + 포스터 이미지 업로드(Multipart) / (회원) 목록/상세 / (리뷰) 목록 |
 | 🌐 공통 | UTF-8 인코딩 필터 적용(한글 깨짐 방지) |
-
-> ✅ **관리자 영화 관리 기능 예시**
-> - 영화 목록: `/admin/movie/list`
-> - 영화 등록: `/admin/movie/create` (포스터 이미지 업로드 포함)
-> - 영화 상세(관리자): `/admin/movie/info`
-> - 영화 삭제: `/admin/movie/delete`
 
 <br>
 
@@ -134,7 +171,6 @@ Joeun-Movie/
 ---
 
 ## 6. 화면 UI
-> 아래는 예시 템플릿입니다. 실제 이미지 경로로 교체해서 사용하세요.
 
 ### 메인 화면
 <details>
