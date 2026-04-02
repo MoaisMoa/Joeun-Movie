@@ -52,8 +52,8 @@
 |:---:|:---|
 | 🎬 영화 | 영화 상세 조회 / 키워드 기반 검색 파라미터 지원 |
 | ⭐ 리뷰 | (관리자) 전체 리뷰 목록 조회 / (마이페이지) 내 리뷰 목록 조회 |
-**| 👤 회원 | 회원가입 / 로그인 / 로그아웃 / 아이디 중복 체크 (`/id-check`) |
-| 🔐 로그인 유지 | 토큰 기반 로그인 유지(검증/갱신/삭제) + 로그아웃 시 쿠키 토큰 제거 |**
+| 👤 회원 | 회원가입 / 로그인 / 로그아웃 / 아이디 중복 체크 (`/id-check`) |
+| 🔐 로그인 유지 | 토큰 기반 로그인 유지(검증/갱신/삭제) + 로그아웃 시 쿠키 토큰 제거 |
 | 🧾 마이페이지 | 마이페이지 화면, 내 정보 화면 제공 |
 | 🛠 관리자 | (영화) 등록/목록/상세/삭제 + 포스터 이미지 업로드(Multipart) / (회원) 목록/상세 / (리뷰) 목록 |
 | 🌐 공통 | UTF-8 인코딩 필터 적용(한글 깨짐 방지) |
@@ -64,7 +64,7 @@
 
 ## 4. 기술 스택
 
-### Frontend (View)
+### Frontend
 <div align="left">
   <img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
@@ -93,32 +93,19 @@
 
 ---
 
-## 5. Architecture
-
-- **Servlet + JSP 기반 MVC 구조**
-  - Servlet: 요청 처리/라우팅 및 Service 호출
-  - Service/DAO: 비즈니스 로직 및 DB 접근
-  - JSP: 화면 렌더링
-- **세션 기반 로그인 + 토큰 기반 로그인 유지(자동 로그인)**
-
-<br>
-
----
 
 ## 6. 화면 UI
 
 ### 로그인 화면
-<details>
-  <img src="./movie/src/main/webapp/static/img/ui/main.png" width="720" alt="메인화면">
   <img width="1444" height="726" alt="로그인" src="https://github.com/user-attachments/assets/73c6ff49-5f8a-4f18-9f13-b6669fe4556a" />
 
 <br><br><br>
 
 ### 회원가입 화면
-<details>
+
   <img width="1447" height="727" alt="회원가입" src="https://github.com/user-attachments/assets/6bfd57af-a10a-489e-b0db-40cdbf17c39c" />
   <img width="1389" height="699" alt="회원가입-유효성" src="https://github.com/user-attachments/assets/1e48f1a5-52ed-4b86-a1cd-66f3c6b67589" />
-</details>
+
 
 <br><br>
 
